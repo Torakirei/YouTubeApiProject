@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Add style block to make the background black and text white -->
+<style>
+    body {
+        background-color: black; /* Black background */
+        color: white; /* White text */
+    }
+
+    .text-success {
+        color: lightgreen !important; /* Make the text green for headings */
+    }
+
+    a {
+        color: lightblue; /* Make links light blue */
+    }
+
+        a:hover {
+            color: white; /* Make links white on hover */
+        }
+
+    .btn-success {
+        background-color: lightgreen;
+        border-color: lightgreen;
+        color: black; /* Black text on buttons */
+    }
+
+        .btn-success:hover {
+            background-color: green;
+            border-color: green;
+            color: white; /* White text on hover */
+        }
+</style>
+
+<div class="text-center my-5">
+    <h1 class="display-4 font-weight-bold">🎉 Welcome to the YouTube API Project! 🎶</h1>
+    <p class="lead">Dive into the world of music and discover your favorite tunes!</p>
+
+    <!-- Updated image -->
+    <img src="/images/1.jpg" alt="Music Banner" class="img-fluid my-4" />
+
+    <h2 class="text-success">🎵 Explore the Latest Hits!</h2>
+    <p>Search, listen, and enjoy music like never before. Our platform allows you to:</p>
+    <ul class="list-unstyled lead">
+        <li>🔍 Search for your favorite songs</li>
+        <li>🎧 Listen to music seamlessly</li>
+        <li>📅 Stay updated with trending music</li>
+    </ul>
+
+    <p class="mt-4">
+        <a href="~/YouTube/Index" class="btn btn-success btn-lg">Start Exploring Now!</a>
+    </p>
+
+    <footer class="mt-5">
+        <p class="text-muted">Join our community and unleash the power of music!</p>
+    </footer>
+</div>
